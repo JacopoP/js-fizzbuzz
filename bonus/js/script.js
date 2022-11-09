@@ -148,7 +148,7 @@ document.getElementById("begin").addEventListener("click",
                             }
                         }
         
-                        else if((i-1)%x==0){
+                        else if((i+1)%x==0){
                             if(table[i-x-1].dataset.value=="2"){
                                 n++;
                             }
